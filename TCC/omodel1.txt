@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TFR   R-squared:                       0.781
+Model:                            OLS   Adj. R-squared:                  0.759
+Method:                 Least Squares   F-statistic:                     35.56
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):           5.28e-10
+Time:                        15:17:34   Log-Likelihood:                 1.3665
+No. Observations:                  34   AIC:                             5.267
+Df Residuals:                      30   BIC:                             11.37
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.6893     10.338      0.260      0.797     -18.425      23.803
+Policy        -0.9976      0.178     -5.590      0.000      -1.362      -0.633
+ln_GDP        -0.1797      0.090     -1.994      0.055      -0.364       0.004
+LF             0.0335      0.199      0.168      0.868      -0.373       0.440
+==============================================================================
+Omnibus:                       12.359   Durbin-Watson:                   0.560
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.300
+Skew:                           1.176   Prob(JB):                      0.00213
+Kurtosis:                       4.775   Cond. No.                     1.21e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.21e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
