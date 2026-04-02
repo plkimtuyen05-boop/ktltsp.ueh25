@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    TFR   R-squared:                       0.781
+Model:                            OLS   Adj. R-squared:                  0.759
+Method:                 Least Squares   F-statistic:                     133.4
+Date:                Wed, 01 Apr 2026   Prob (F-statistic):           1.95e-17
+Time:                        06:19:30   Log-Likelihood:                 1.3665
+No. Observations:                  34   AIC:                             5.267
+Df Residuals:                      30   BIC:                             11.37
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.6893      7.108      0.378      0.705     -11.242      16.620
+policy        -0.9976      0.198     -5.040      0.000      -1.386      -0.610
+ln_GDP        -0.1797      0.088     -2.041      0.041      -0.352      -0.007
+LF             0.0335      0.136      0.245      0.806      -0.234       0.301
+==============================================================================
+Omnibus:                       12.359   Durbin-Watson:                   0.560
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.300
+Skew:                           1.176   Prob(JB):                      0.00213
+Kurtosis:                       4.775   Cond. No.                     1.21e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.21e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
